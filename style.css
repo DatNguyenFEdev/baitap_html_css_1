@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 3090px;
+    margin: 0 auto;
+    height: 2000px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    height: 2000px;
+    width: 100%;
+    background-image: url(./images/person.png), url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    background-size: contain, contain;
+}
+/* ==========================left========================== */
+section .left{
+    width: 35%;
+}
+section .left .title{
+    width: 100%;
+}
+section .left .title >h1{
+    font-size: 150px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 180px;
+    margin-bottom: 50px;
+}
+section .left .title >h1 >span{
+    display: block;
+    font-weight: bolder;
+}
+section .left .title >h1 >span:first-child{
+    font-size: 70px;
+}
+section .left a{
+    font-size: 100px;
+}
+section .left .title >img{
+    margin-top: 78px;
+    margin-bottom: 220px;
+}
+section .left .title >a >img{
+line-height: 40px;
+}
+section .left >p{
+    font-size: 50px;
+    color:white;
+    margin-top: 300px;
+}
+/* ==============================right=============================== */
+section .right{
+    width: 65%;
+
+}
+section .right .menu {
+    margin-top: 154px;
+    margin-bottom: 500px;
+}
+section .right .menu >ul{
+    display: inline-table;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+}
+section .right .menu >ul >li >a{
+    line-height: 60px;
+    padding: 0px 60px;
+}
+section .right .sale {
+    float: right;
+    font-size: 60px;
+    color: white;
+    max-width: 604px;
+}
+section .right .sale h2{
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: lighter;
+    margin-bottom: 70px;
+    
+}
+section .right .sale h2 span{
+    display: block;
+    word-spacing: 15px;
+}
+section .right .sale p{
+    text-align: right;
+    font-size: 50px;
+    letter-spacing: 5px;
+    max-width: 604px;
+}
+section .right .contact{
+    display: block;
+    float: right;
+    clear: both;
+    margin-top: 300px;
+}
+section .right .contact ul{
+    display: block;
+}
+section .right .contact ul li{
+    display: inline-block;
+}
+section .right .contact ul li a{
+    padding: 0px 20px;
+    
+}
+
